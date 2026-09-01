@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <main className="wrap">
+    <main className="wrap home">
       <h1>환경 변수는 어디까지 보이나요?</h1>
       <p className="lead">
         같은 <code>.env.local</code> 파일에 적어도, 이름에 따라 도착하는 곳이 다릅니다.

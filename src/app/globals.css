@@ -6,6 +6,7 @@
   --accent: #17633c;
   --danger: #813b38;
   --paper: #fff;
+  --paper-home: #fff9c4;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
@@ -19,6 +20,9 @@ body {
     "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   word-break: keep-all;
 }
+
+/* 홈 화면만 배경을 노란색으로 둔다. */
+body:has(.home) { background: var(--paper-home); }
 
 .wrap { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
 
