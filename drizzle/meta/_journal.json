@@ -8,6 +8,13 @@
       "when": 1788241710741,
       "tag": "0000_condemned_ultron",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788247492006,
+      "tag": "0001_sharp_elektra",
+      "breakpoints": true
     }
   ]
 }
