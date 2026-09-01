@@ -55,8 +55,8 @@ export default async function Instructors() {
                   </span>
                   {/* next/image는 호스트를 next.config에 미리 등록해야 합니다.
                       photo_url에는 어떤 주소든 들어올 수 있어서 img를 씁니다. */}
-                  {/* eslint-disable-next-line @next/next/no-img-element */}
                   <span className="shot">
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
                     <img src={r.photoUrl} alt={`${r.name} 사진`} loading="lazy" />
                     <span className="cap">{r.name}</span>
                   </span>
