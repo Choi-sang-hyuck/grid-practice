@@ -11,7 +11,7 @@ export const participants = pgTable('participants', {
 
 /* 강의자 정보. participants와 달리 연락처와 소개를 함께 담는다.
    email은 사람을 구분하는 값이라 UNIQUE로 둔다.
-   bio, organization, expertise는 없을 수도 있어서 NOT NULL을 걸지 않는다. */
+   bio, organization, expertise, photoUrl은 없을 수도 있어서 NOT NULL을 걸지 않는다. */
 export const instructors = pgTable('instructors', {
   id: serial('id').primaryKey(),
   name: text('name').notNull(),
@@ -19,5 +19,6 @@ export const instructors = pgTable('instructors', {
   bio: text('bio'),
   organization: text('organization'),
   expertise: text('expertise'),
+  photoUrl: text('photo_url'),
   createdAt: timestamp('created_at').defaultNow().notNull(),
 })
