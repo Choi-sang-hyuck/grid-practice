@@ -71,6 +71,9 @@ table { border-collapse: collapse; width: 100%; margin: 0 0 1rem; font-size: .95
 th, td { text-align: left; padding: .45rem .6rem; border-bottom: 1px solid var(--line); }
 th { color: var(--muted); font-weight: 600; }
 
+/* 나중에 더한 학습시간 칼럼만 눈에 띄게 한다. th의 muted보다 class가 우선한다. */
+.col-study-hours { color: #d32f2f; }
+
 .env-row {
   display: grid;
   grid-template-columns: 15rem 1fr;
