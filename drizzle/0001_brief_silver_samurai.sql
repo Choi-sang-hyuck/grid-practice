@@ -1,0 +1,1 @@
+ALTER TABLE "participants" ADD COLUMN "study_hours" integer DEFAULT 0 NOT NULL;
