@@ -6,6 +6,7 @@
   --accent: #17633c;
   --danger: #813b38;
   --paper: #fff;
+  --bg: #dcefe1;
   --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
 }
 
@@ -13,7 +14,7 @@
 
 body {
   margin: 0;
-  background: var(--paper);
+  background: var(--bg);
   color: var(--ink);
   font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Pretendard",
     "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
